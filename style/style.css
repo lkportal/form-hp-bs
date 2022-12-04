@@ -7,7 +7,7 @@
   color: #a38144;
 }
 
-.conteiner-form, .header {
+.conteiner-form label, .header {
   font-family: "Boatman Stamped", sans-serif;
 }
 
@@ -21,10 +21,18 @@ body {
   border: 1px solid #664d21;
 }
 
+.img-left-top img {
+  width: 100%;
+}
+
 .title {
   display: flex;
   justify-content: center;
 }
+.title h1 {
+  font-size: 50px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -35,6 +43,7 @@ body {
 }
 .header h1 {
   color: #AAA;
+  font-size: 25px;
 }
 
 .conteiner-form {
@@ -43,6 +52,7 @@ body {
   border: 1px solid #a38144;
   background-color: #a38144;
   text-align: center;
+  margin: 0 5px 0 5px;
 }
 .conteiner-form label {
   margin-top: 25px;
@@ -50,9 +60,19 @@ body {
 .conteiner-form input {
   text-align: center;
   padding: 15px;
-  margin: 0 75px 0 75px;
+  margin: 0 75px 25px 75px;
   border-radius: 5px;
   border: 1px solid #664d21;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  padding: 15px;
+  margin: 25px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
